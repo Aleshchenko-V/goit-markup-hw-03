@@ -66,6 +66,7 @@ header {
   margin-bottom: 50px;
 }
 .logo {
+  padding: 24px 0;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -238,4 +239,33 @@ footer {
 
 .list {
   padding: 0;
+}
+
+.site-nav,
+.contacts-nav {
+  display: flex;
+}
+
+.site-nav .link,
+.contacts-nav .link {
+  display: block;
+  padding: 32px 0;
+}
+.site-nav > li + li,
+.contacts-nav > li + li {
+  margin-left: 50px;
+  /*background-color: teal;*/
+}
+
+.main-nav,
+.header-nav {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+}
+
+.main-nav > .site-nav {
+  margin-left: 93px;
 }
