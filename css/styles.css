@@ -136,7 +136,7 @@ header {
   color: var(--secondary-text-color);
 }
 
-section {
+.section {
   padding: 94px 0;
 }
 .section-title {
