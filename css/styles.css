@@ -207,6 +207,9 @@ header {
 
 .project-description {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .filter-item {
@@ -236,6 +239,10 @@ footer {
 
 .filter.no-padding {
   padding: 0;
+}
+
+.section.without-padding-bottom {
+  padding-top: 0;
 }
 
 .first-section {
